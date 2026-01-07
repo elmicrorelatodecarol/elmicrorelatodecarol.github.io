@@ -3,4 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: El microrelato de Carol
+
 ---
+
+
+###### ¿Es el microrelato de Carol de hoy alegre?
+# No. todavia no.
+
+{% include relato.html %}
+
+
