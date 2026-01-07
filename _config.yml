@@ -23,7 +23,7 @@ email: ellis.coldwater
 description: >- # this means to ignore newlines until "baseurl:"
   Un reto de escritura para crear mundos definición tras definición.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://elmicrorelatodecarol.online" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: elmicrorelatodecarol
 github_username:  elmicrorelatodecarol
 
