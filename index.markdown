@@ -9,7 +9,7 @@ title: El microrelato de Carol
 
 
 ###### ¿Es el microrelato de Carol de hoy alegre?
-# No. Todavia no.
+# Hoy tampoco.
 
 {% include relato.html %}
 
