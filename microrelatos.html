@@ -4,11 +4,12 @@ title: Microrelatos
 ---
 <h1>Microrelatos</h1>
 
+<h2>Enero</h2>
 <ul>
   {% for microrelato in site.microrelatos %}
     <li>
-      <h2>{{ microrelato.date }}</h2>
-      <p><a href="{{ microrelato.link }}">{{ microrelato.palabra }}</a></p>
+      {{ microrelato.date | date: "%-d"  }} - 
+      <a href="{{ microrelato.link }}">{{ microrelato.palabra }}</a>
     </li>
   {% endfor %}
 </ul>
