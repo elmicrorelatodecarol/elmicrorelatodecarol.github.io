@@ -1,0 +1,14 @@
+---
+layout: default
+title: Microrelatos
+---
+<h1>Microrelatos</h1>
+
+<ul>
+  {% for microrelato in site.microrelatos %}
+    <li>
+      <h2>{{ microrelato.date }}</h2>
+      <p><a href="{{ microrelato.link }}">{{ microrelato.palabra }}</a></p>
+    </li>
+  {% endfor %}
+</ul>
